@@ -21,7 +21,7 @@ This project allows users to add, update, and delete tasks with timestamps.
 ## Installation
 
 Clone the repository:
-git clone https://github.com/yourusername/repositoryname.git
+git clone https://github.com/sejal426/flask-task-manager.git
 
 Install dependencies:
 pip install -r requirements.txt
@@ -32,6 +32,9 @@ python app.py
 Open in browser:
 http://127.0.0.1:5000
 
-#screeshots of the working system
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fddea011-91f6-4d41-bc56-d4c856fbef08" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/854f8ea9-c397-431f-bebd-69d2b2e4f263" />
+#SCREENSHOTS OF THE WORKING SYSYTEM 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f1331cd-7e19-4fc5-b4de-e69884cc8028" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d247fe8-6253-4397-8d20-eb4a6dc97172" />
+
