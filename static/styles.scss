@@ -1,0 +1,38 @@
+body{
+    background-color: wheat;
+    
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 50vh;
+    flex-direction: column;
+
+}
+h1 {
+    font-size: 48px;   /* make heading bigger */
+    margin-bottom: 30px; /* space below heading */
+
+}
+th {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+td {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+form {
+    margin-top: 20px;
+}
+input, button {
+    display: inline-block;
+}
+input{
+    margin-right: 20px;  
+}
+.input-section {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    gap: 10px;                /* space between input and button */
+    margin-top: 20px;
+}

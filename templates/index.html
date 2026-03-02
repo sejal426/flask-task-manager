@@ -1,0 +1,40 @@
+{%extends "base.html"%}
+
+{%block head%}
+{%endblock%}
+
+{%block body%}
+
+<div class="content">
+    <h1>TASK MANAGER</h1>
+    {% if tasks|length<1%}
+    <h3>No tasks yet.</h3>
+    {% else %}
+    <table>
+        <tr>
+            <th>TASK</th>
+            <TH>TIMING</TH>
+            <TH>ACTIONS</TH>
+        </tr>
+        {% for task in tasks %}
+        <TR>
+            <TD>{{ task.content }}</TD>
+            <TD>{{ task.created.strftime("%Y-%m-%d || %H:%M") }}</TD>
+            <TD>
+                <a href="/update/{{ task.id }}">Update</a>
+                <br>
+                <a href="/delete/{{ task.id }}">Delete</a>
+            </TD>
+        </TR>
+        {% endfor %}
+    </table>
+    {% endif %}
+<div class="input-section">
+    <FORM ACTION="/" method="POST">
+        <INPUT TYPE="text" NAME="content" ID="content"/>
+        <button TYPE="submit" VALUE="add task" ID="BTN_ADD">ADD TASK</button>
+</div>
+    </FORM>
+</div>
+
+{%endblock%}
